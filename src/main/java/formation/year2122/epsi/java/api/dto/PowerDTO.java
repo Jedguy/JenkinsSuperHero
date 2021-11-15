@@ -1,0 +1,11 @@
+package formation.year2122.epsi.java.api.dto;
+
+import lombok.*;
+
+@Data
+@Builder
+public class PowerDTO {
+    private long id;
+    private String name;
+    private String description;
+}
